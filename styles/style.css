@@ -25,6 +25,8 @@ header {
     background-repeat: no-repeat;
     align-items: center;
     padding: 177px 344px;
+    width: 80%;
+    max-width: 1320px;
 
 
 }
@@ -96,8 +98,8 @@ header {
     margin-bottom: 35px;
 }
 
-.heading-img{
-    margin-left:250px ;
+.heading-img {
+    margin-left: 250px;
 }
 
 .welcome {
@@ -138,7 +140,7 @@ header {
     line-height: 30px;
     width: 550px;
     /* 166.667% */
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .text {
@@ -151,7 +153,7 @@ header {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 0px 50px 55px 50px;
+    margin: 0px 50px 60px 50px;
 }
 
 .times {
@@ -196,6 +198,27 @@ header {
     text-transform: capitalize;
 }
 
+.comingsoon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comingsoon-text h6 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.comingsoon-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
 .portfolio-text {
     text-align: left;
     padding: 15px 0;
@@ -229,6 +252,7 @@ header {
     justify-content: space-around;
     margin-bottom: 10px;
 }
+
 .newsletter-text {
     border-radius: 16px;
     background: rgba(241, 231, 231, 0.05);
@@ -261,7 +285,8 @@ form {
     justify-content: space-between;
 
 }
-.input-text{
+
+.input-text {
     margin: 30px;
 }
 
@@ -318,5 +343,5 @@ button {
     font-size: 24px;
     font-weight: 500;
     border: 0;
-    background-color:  #070211;
+    background-color: #070211;
 }
