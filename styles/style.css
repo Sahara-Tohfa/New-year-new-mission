@@ -52,9 +52,10 @@ header {
 }
 
 .banner-text {
-    width: 40%;
+    width: 80%;
     max-width: 632px;
     text-align: center;
+    padding: 10px 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
@@ -95,10 +96,8 @@ header {
     margin-bottom: 35px;
 }
 
-.heading img {
-    align-items: center;
-    padding: 200px;
-
+.heading-img{
+    margin-left:250px ;
 }
 
 .welcome {
